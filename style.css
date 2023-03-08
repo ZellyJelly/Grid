@@ -1,1 +1,24 @@
+body{
+    margin:auto;
+    background-color: grey;
 
+}
+.gridContainer{
+    margin-top:5rem;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+}
+
+[data-container]{
+    width:auto;
+}
+
+[data-blocks]{
+    background-color:green;
+    height:50px;
+    width:50px;
+    border:2;
+    border-style:dashed;
+    border-color:black;
+}
